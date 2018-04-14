@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.StudentMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.example.demo.entity.Student">
+        <id column="student_num" property="studentNum" />
+        <result column="student_name" property="studentName" />
+        <result column="password" property="password" />
+        <result column="gendar" property="gendar" />
+        <result column="phone" property="phone" />
+        <result column="email" property="email" />
+        <result column="head_img" property="headImg" />
+        <result column="student_class" property="studentClass" />
+        <result column="role" property="role" />
+    </resultMap>
+
+</mapper>
